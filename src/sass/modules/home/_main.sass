@@ -1,0 +1,323 @@
+// .under-link
+//     border-bottom: 3px solid transparent
+//     &:hover
+//         border-bottom: 3px solid #ec2727
+//     &:active
+//         border-bottom: 3px solid #ec2727
+// .dropdown-toggle
+//     &:hover
+//         color: #ec2727
+//     &:active
+//         color: #ec2727
+
+
+
+nav
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+    padding: 10px
+.fa-bars
+    display: none
+.fa-xmark
+    display: none
+.nav-logo
+    text-decoration: none
+    color: black
+    font-weight: bold
+    font-size: 25px
+.color-red
+    color: #ec1717
+.links
+        display: flex
+        flex-direction: row
+        gap: 30px
+        a
+            color: #00000077
+            text-decoration: none
+            font-size: 20px
+            font-weight: bold
+.under-link
+    border-bottom: 3px solid transparent
+    &:hover
+        border-bottom: 3px solid #ec2727
+        color: black
+        transition: 0.5s
+    &:active
+        border-bottom: 3px solid #ec2727
+        color: black
+.dropdown-toggle
+    &:hover
+        color: #ec2727
+    &:active
+        color: #ec2727
+        
+            
+.book-a-tbl
+    color: white
+    text-decoration: none
+    background: #ce1717
+    border-radius: 20px
+    padding: 10px 25px
+        
+// dropdown ///////////////////////
+    /* Dropdown Button
+
+.dropbtn
+  background: none
+  color: #00000077
+  font-size: 20px
+  font-weight: bold
+  border: none
+  cursor: pointer
+
+  &:hover, &:focus
+    color: #ec2727
+
+/* Dropdown button on hover & focus
+
+/* The container <div> - needed to position the dropdown content
+
+.dropdown
+  position: relative
+  display: inline-block
+
+/* Dropdown Content (Hidden by Default)
+
+.dropdown-content
+  display: none
+  position: absolute
+  background-color: #f1f1f1
+  min-width: 160px
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+  z-index: 1
+
+  a
+    color: black
+    padding: 12px 16px
+    text-decoration: none
+    display: block
+
+    &:hover
+      background-color: #ddd
+
+
+.show
+  display: block
+
+// dropdown end //////////////////
+
+// modal
+
+.modalee
+    background: #dd5a5afc
+    box-shadow: 0 0 30px -10px black
+    border-radius: 20px
+    width: 800px
+    height: 800px
+    z-index: 1
+    position: fixed
+    color: white
+    .login
+        display: flex
+        flex-direction: column
+        input, button
+            border-radius: 20px
+            padding: 20px
+            margin: 10px
+        button
+            background-color: white
+
+.sec-1
+    background-color: #eeeeee
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly
+    align-items: center
+    gap: 10px
+    div
+        width: 500px
+        padding: 20px
+
+.sec-2
+    padding: 20px
+    gap: 5px
+    display: flex
+    flex-direction: column
+    justify-content: center
+.sec-2-bg-img
+    background-image: url("./../img/about.jpg")
+    background-size: cover
+    height: 750px
+    width: 700px
+    display: flex
+    justify-content: center
+    align-items: end
+    div
+        background-color: white
+        text-align: center
+        width: fit-content
+        padding: 10px 120px
+        margin-bottom: 70px
+.sec-2-right
+    width: 40vw
+    div
+        display: flex
+        flex-direction: row
+        gap: 10px
+        i
+            font-size: 20px
+.video-1
+    video[poster]
+        height: 100%
+        width: 100%
+.sec-3
+    background-color: #eeeeee
+    display: flex
+    justify-content: row
+    justify-content: center
+    align-items: center
+    gap: 20px
+    .sec-3-red
+        width: 400px
+        background-color: #ec2727
+        color: white
+.learn-mr
+    text-decoration: none
+    color: white
+    background-color: #eadbdb43
+    padding: 10px 40px
+    border-radius: 20px
+    text-align: center
+.sec-3-white
+    display: flex
+    flex-direction: row
+    gap: 20px
+    div
+        background-color: white
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        gap: 20px
+        width: 250px
+        padding: 25px
+        div
+            background-color: #dd5a5a48
+            width: 70px
+            height: 70px
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+
+.sec-4
+    background: linear-gradient(90deg, rgba(2,0,36,0.5480392840730042) 0%, rgba(0,0,0,0.44439782749037116) 35%) , url("./../img/stats-bg.jpg")
+    background-attachment: fixed
+    height: 450px
+    width: 100%
+    div
+        h1
+            font-weight: bold
+            font-size: 70px
+        p
+            color: #ffffff82
+            font-weight: bold
+            font-size: 30px
+.sec-5-links
+    border-bottom: 3px solid #0000004e
+    padding: 10px
+    cursor: pointer
+    &:hover
+        border-bottom: 3px solid #ec2727
+        color: #ec2727
+.menu
+    padding: 20px
+    .top, .bottom
+        display: flex
+        lex-direction: row
+        justify-content: space-between
+        justify-content: center
+        gap: 20px
+        div
+            padding: 30px
+.sec-6
+    background-color: #eeeeee
+.testi-div
+    border-left: 3px solid #ec2727
+    width: 800px
+    padding: 30px
+.testi-img
+    border-radius: 50%
+    border: 5px solid white
+    width: 300px
+    height: 300px
+.circles
+    i
+        cursor: pointer
+
+
+// NAVBAR
+@media ( max-width: 1050px )
+    .right100
+        position: absolute
+        right: -100%
+    nav
+        position: fixed
+        background-color: white
+        width: 100vw
+        justify-content: space-between
+        height: 70px
+        box-shadow: 0 0 30px -10px black
+        .nav-logo
+            position: fixed
+            top: 0%
+            margin: 10px
+        .book-a-tbl
+            position: fixed
+            top: 0%
+            right: 10%
+            margin: 10px
+        .links
+            background: #fffffff2
+            height: 100vh
+            width: 99vw
+            top: 0%
+            display: flex
+            flex-direction: column
+            position: absolute
+            z-index: 1
+            padding: 20px
+            box-shadow: 0 0 30px -10px black
+            .home-a
+                border-bottom: 3px solid #ec2727
+                padding-bottom: 10px
+            a
+                display: flex
+                align-items: center
+    .fa-bars 
+        display: block
+        font-size: 40px
+        position: fixed
+        top: 0%
+        right: 0%
+        margin: 10px
+    .fa-xmark
+        display: block
+        font-size: 40px
+        position: absolute
+        top: 0%
+        right: 0%
+        margin: 10px
+
+
+    
+    
+    
+            
+            
+    
+
+
+
