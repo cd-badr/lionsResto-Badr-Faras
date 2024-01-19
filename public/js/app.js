@@ -76,11 +76,51 @@ function mcls() {
   modalDiv.classList.add("d-none")
 }
 
-
-
-
-
-
 // modal end
+
+// menu
+
+let menu1Div = document.querySelector('menu-1')
+let menu2Div = document.querySelector('menu-2')
+let menu3Div = document.querySelector('menu-3')
+let menu4Div = document.querySelector('menu-4')
+
+let menu1Btn = document.getElementById("menu1-btn")
+menu1Btn.addEventListener('click', m1)
+function m1() {
+  menu1Div.classList.remove("d-none")
+  menu2Div.classList.add("d-none")
+  menu3Div.classList.add("d-none")
+  menu4Div.classList.add("d-none")
+}
+
+let menu2Btn = document.getElementById("menu2-btn")
+menu2Btn.addEventListener('click', m2)
+function m2() {
+  menu1Div.classList.add("d-none")
+  menu2Div.classList.remove("d-none")
+  menu3Div.classList.add("d-none")
+  menu4Div.classList.add("d-none")
+}
+
+let menu3Btn = document.getElementById("menu3-btn")
+menu3Btn.addEventListener('click', m3)
+function m3() {
+  menu1Div.classList.add("d-none")
+  menu2Div.classList.add("d-none")
+  menu3Div.classList.remove("d-none")
+  menu4Div.classList.add("d-none")
+}
+
+let menu4Btn = document.getElementById("menu4-btn")
+menu4Btn.addEventListener('click', m3)
+function m3() {
+  menu1Div.classList.add("d-none")
+  menu2Div.classList.add("d-none")
+  menu3Div.classList.add("d-none")
+  menu4Div.classList.remove("d-none")
+}
+
+// menu end
 
 
