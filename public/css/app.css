@@ -12223,6 +12223,39 @@ nav {
   background-image: url("./../img/chefs/chefs-3.jpg");
 }
 
+.sec-9-div {
+  width: 1200px;
+  height: 400px;
+  background-color: #eeeeee;
+}
+
+.sec-9-img {
+  width: 100vw;
+  background-image: url("./../img/reservation.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sec-9-form {
+  width: 800px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sec-9-form textarea {
+  width: 100%;
+  padding: 50px;
+}
+.sec-9-form div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.sec-9-form div input {
+  padding: 10px;
+}
+
 @media (max-width: 1050px) {
   .right100 {
     position: absolute;
