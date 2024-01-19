@@ -12297,6 +12297,10 @@ footer {
   padding: 20px;
 }
 
+.watch {
+  text-decoration: none;
+}
+
 @media (max-width: 1050px) {
   .right100 {
     position: absolute;
@@ -12357,6 +12361,59 @@ footer {
     right: 0%;
     margin: 10px;
   }
+}
+@media (max-width: 426px) {
+  .sec-1 {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .sec-1 div {
+    width: 100%;
+    margin-top: 60px;
+    padding: 20px;
+  }
+  .sec-1 .sec-1-img {
+    width: 300px;
+  }
+  .sec-2-bg-img {
+    background-image: url("./../img/about.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .sec-2-bg-img div {
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 120px;
+    margin-bottom: 70px;
+  }
+  .sec-2-right {
+    width: 100%;
+  }
+  .sec-2-right div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .sec-2-right div i {
+    font-size: 20px;
+  }
+}
+.video-1 video[poster] {
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
