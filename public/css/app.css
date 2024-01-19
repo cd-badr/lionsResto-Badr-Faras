@@ -12309,7 +12309,7 @@ footer {
   nav {
     position: fixed;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
     height: 70px;
     box-shadow: 0 0 30px -10px black;
@@ -12410,10 +12410,54 @@ footer {
   .sec-2-right div i {
     font-size: 20px;
   }
-}
-.video-1 video[poster] {
-  height: 100%;
-  width: 100%;
+  .video-1 video[poster] {
+    height: 100%;
+    width: 100%;
+  }
+  .sec-3 {
+    background-color: #eeeeee;
+  }
+  .sec-3 .sec-3-red {
+    width: 400px;
+    background-color: #ec2727;
+    color: white;
+  }
+  .learn-mr {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(234, 219, 219, 0.262745098);
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .sec-3-white {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sec-3-white div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 250px;
+    padding: 25px;
+  }
+  .sec-3-white div div {
+    background-color: rgba(221, 90, 90, 0.2823529412);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-4 {
+    height: 700px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
