@@ -12163,6 +12163,31 @@ nav {
   cursor: pointer;
 }
 
+.sec-7-div1 {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%), url("./../img/events-1.jpg");
+}
+
+.sec-7-div2 {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%), url("./../img/events-2.jpg");
+}
+
+.sec-7-div3 {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%), url("./../img/events-3.jpg");
+}
+
+.sec-7-div1, .sec-7-div2, .sec-7-div3 {
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+.sec-7-div1 .price, .sec-7-div2 .price, .sec-7-div3 .price {
+  border-bottom: 3px solid #ec2727;
+  width: fit-content;
+}
+
 @media (max-width: 1050px) {
   .right100 {
     position: absolute;
