@@ -12313,6 +12313,7 @@ footer {
     justify-content: space-between;
     height: 70px;
     box-shadow: 0 0 30px -10px black;
+    z-index: 1;
   }
   nav .nav-logo {
     position: fixed;
@@ -12511,6 +12512,9 @@ footer {
   }
   footer {
     text-align: center;
+  }
+  .modalee {
+    width: 400px;
   }
 }
 
