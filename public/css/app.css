@@ -11920,6 +11920,7 @@ nav {
   background: #ce1717;
   border-radius: 20px;
   padding: 10px 25px;
+  cursor: pointer;
 }
 
 .dropbtn {
@@ -11964,26 +11965,36 @@ nav {
   display: block;
 }
 
+.curs-pointer {
+  cursor: pointer;
+}
+
+.log-sign h1:hover, .log-sign .h1:hover {
+  font-weight: bold;
+}
+.log-sign h1:active, .log-sign .h1:active {
+  font-weight: bold;
+}
+
 .modalee {
   background: rgba(221, 90, 90, 0.9882352941);
   box-shadow: 0 0 30px -10px black;
   border-radius: 20px;
-  width: 800px;
-  height: 800px;
+  width: 500px;
   z-index: 1;
   position: fixed;
   color: white;
 }
-.modalee .login {
+.modalee .loginn, .modalee .signupp {
   display: flex;
   flex-direction: column;
 }
-.modalee .login input, .modalee .login button {
+.modalee .loginn input, .modalee .loginn button, .modalee .signupp input, .modalee .signupp button {
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
 }
-.modalee .login button {
+.modalee .loginn button, .modalee .signupp button {
   background-color: white;
 }
 

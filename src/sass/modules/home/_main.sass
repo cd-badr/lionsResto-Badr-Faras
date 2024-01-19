@@ -12,6 +12,7 @@
 
 
 
+
 nav
     display: flex
     align-items: center
@@ -59,6 +60,7 @@ nav
     background: #ce1717
     border-radius: 20px
     padding: 10px 25px
+    cursor: pointer
         
 // dropdown ///////////////////////
     /* Dropdown Button
@@ -109,16 +111,24 @@ nav
 
 // modal
 
+.curs-pointer
+    cursor: pointer
+.log-sign
+    h1
+        &:hover
+            font-weight: bold
+        &:active
+            font-weight: bold
+
 .modalee
     background: #dd5a5afc
     box-shadow: 0 0 30px -10px black
     border-radius: 20px
-    width: 800px
-    height: 800px
+    width: 500px
     z-index: 1
     position: fixed
     color: white
-    .login
+    .loginn, .signupp
         display: flex
         flex-direction: column
         input, button
@@ -127,6 +137,8 @@ nav
             margin: 10px
         button
             background-color: white
+
+// modal end
 
 .sec-1
     background-color: #eeeeee
