@@ -12292,6 +12292,11 @@ nav {
   width: 100%;
 }
 
+footer {
+  background-color: #201f25;
+  padding: 20px;
+}
+
 @media (max-width: 1050px) {
   .right100 {
     position: absolute;
